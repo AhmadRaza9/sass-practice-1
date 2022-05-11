@@ -1,0 +1,15 @@
+@media (max-width: 800px) {
+  .showcase {
+    height: 450px;
+    &-content {
+      grid-template-columns: 1fr;
+      text-align: center;
+      h1 {
+        font-size: 30px;
+      }
+      .img-box {
+        display: none;
+      }
+    }
+  }
+}
